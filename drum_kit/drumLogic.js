@@ -13,7 +13,6 @@ function addButtonCSS(buttonToAddTo) {
 };
 
 function removeButtonCSS(buttonToRemoveFrom){
-  console.log("removing");
   document.getElementById(buttonToRemoveFrom).classList.toggle("playing");
 }
 
